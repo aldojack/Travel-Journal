@@ -1,0 +1,52 @@
+.trip-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2.5em 2em;
+	gap: 1.25em;
+	min-width: 320px;
+	flex: 1 0;
+    font-size: 0.625rem;
+	min-height: 300px;
+}
+
+.trip-img{
+    width: 100%;
+    border-radius: 9px;
+}
+
+.country-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.country-name{
+    text-transform: uppercase;
+}
+
+.country-info a {
+    margin-left: 0.4em;
+    color: #918E9B;
+}
+
+.city-name{
+    font-size: 1.75rem;
+}
+
+.trip-date{
+    font-weight: 600;
+    margin-block: 0.3rem;
+}
+
+@media (min-width: 580px){
+    .trip-card{
+        flex-direction: row;
+        max-width: 720px;
+        min-width: 330px;
+        font-size: 1rem;
+    }
+
+    .trip-img{
+        width: 320px;
+    }
+}

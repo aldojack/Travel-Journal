@@ -3,6 +3,8 @@
     justify-content: center;
     align-items: center;
     padding-block: 1.25rem;
+    background: cornflowerblue;
+    box-shadow: 0px 14px 17px -11px rgba(0,0,0,0.75);
 }
 
 .header-logo{
@@ -13,4 +15,7 @@
 
 .header-title{
     text-transform: lowercase;
+    flex-shrink: 0;
+    border-bottom: 0.1em white solid;
+    
 }
