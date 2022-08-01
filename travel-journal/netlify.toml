@@ -1,4 +1,0 @@
-[build]
-  base = "./travel-journal/"
-  publish = "dist"
-  command = "yarn build"
