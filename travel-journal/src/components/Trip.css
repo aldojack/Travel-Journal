@@ -12,6 +12,7 @@
 
 .trip-img{
     width: 100%;
+    object-fit: cover;
     border-radius: 9px;
 }
 
@@ -38,7 +39,7 @@
     margin-block: 0.3rem;
 }
 
-@media (min-width: 580px){
+@media (min-width: 698px){
     .trip-card{
         flex-direction: row;
         max-width: 720px;
